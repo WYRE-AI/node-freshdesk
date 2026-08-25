@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/node-freshdesk",
+  "name": "@wyre-ai/node-freshdesk",
   "version": "1.0.0",
   "description": "Node.js client library for the Freshdesk v2 API",
   "type": "module",
@@ -40,12 +40,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wyre-technology/node-freshdesk.git"
+    "url": "https://github.com/WYRE-AI/node-freshdesk.git"
   },
   "bugs": {
-    "url": "https://github.com/wyre-technology/node-freshdesk/issues"
+    "url": "https://github.com/WYRE-AI/node-freshdesk/issues"
   },
-  "homepage": "https://github.com/wyre-technology/node-freshdesk#readme",
+  "homepage": "https://github.com/WYRE-AI/node-freshdesk#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/git": "^11.0.1",

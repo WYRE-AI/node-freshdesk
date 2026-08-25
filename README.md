@@ -1,4 +1,4 @@
-# @wyre-technology/node-freshdesk
+# @wyre-ai/node-freshdesk
 
 Node.js client library for the [Freshdesk v2 API](https://developers.freshdesk.com/api/).
 
@@ -27,22 +27,22 @@ canned responses.
 ## Installation
 
 This package is published to **GitHub Packages**. Add an `.npmrc` that points the
-`@wyre-technology` scope at the GitHub registry:
+`@wyre-ai` scope at the GitHub registry:
 
 ```
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 ```
 
 Then install:
 
 ```bash
-npm install @wyre-technology/node-freshdesk
+npm install @wyre-ai/node-freshdesk
 ```
 
 ## Quick start
 
 ```ts
-import { FreshdeskClient } from '@wyre-technology/node-freshdesk';
+import { FreshdeskClient } from '@wyre-ai/node-freshdesk';
 
 const fd = new FreshdeskClient({
   domain: 'acme', // the subdomain in https://acme.freshdesk.com
@@ -104,7 +104,7 @@ All errors extend `FreshdeskError` (also exported as `ServiceError`):
 | 5xx    | `ServerError`          | Retried automatically before surfacing.          |
 
 ```ts
-import { ValidationError, RateLimitError } from '@wyre-technology/node-freshdesk';
+import { ValidationError, RateLimitError } from '@wyre-ai/node-freshdesk';
 
 try {
   await fd.tickets.create({ subject: '', description: '', status: 2, priority: 1 });
