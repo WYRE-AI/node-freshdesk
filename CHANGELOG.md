@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/WYRE-AI/node-freshdesk/compare/v1.0.0...v1.0.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#15](https://github.com/WYRE-AI/node-freshdesk/issues/15)) ([634e992](https://github.com/WYRE-AI/node-freshdesk/commit/634e992ad2f266125ffd0f680870797d7c056dee))
+
 # 1.0.0 (2026-06-18)
 
 
